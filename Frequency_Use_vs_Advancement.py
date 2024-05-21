@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 # Load data from CSV
 df = pd.read_csv(r'C:/Users/miro-/OneDrive/Documentos/University - Coventry-FEI/Subjects/Thesis/Findings/graphics/coded_data.csv')
 
-# Agrupar dados para somar as percepções de avanço nos estudos por frequência de uso
 grouped_data = df.groupby('Frequency of use')['Advancement in Studies Perception'].mean().reset_index()
 
 # Graph 1: Frequency of Use vs. Advancement in Studies Perception
