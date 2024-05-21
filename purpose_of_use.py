@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
 
-# Dados fornecidos (exemplo)
 data = [
     "Clarify doubts",
     "Clarify doubts Translations",
@@ -45,15 +44,12 @@ data = [
     "Complete assig."
 ]
 
-# Dividir os propósitos de uso em múltiplos valores
 all_purposes = []
 for purposes in data:
     all_purposes.extend(purposes.split())
 
-# Contar a frequência de cada propósito
 purpose_counts = Counter(all_purposes)
 
-# Mapear os valores para os rótulos corretos
 labels = {
     'Clarify': 'Clarify doubts',
     'doubts': 'Clarify doubts',
@@ -64,12 +60,10 @@ labels = {
     'notes': 'Taking notes'
 }
 
-# Ajustar os rótulos
 purpose_counts_adjusted = Counter()
 for key, count in purpose_counts.items():
     purpose_counts_adjusted[labels.get(key, key)] += count
 
-# Gráfico de Pizza
 plt.figure(figsize=(10, 6))
 plt.pie(purpose_counts_adjusted.values(), labels=purpose_counts_adjusted.keys(), autopct='%1.1f%%', startangle=140, colors=['red', 'orange', 'yellow', 'green', 'blue'])
 plt.title('Purpose of Use')
