@@ -4,10 +4,8 @@ import matplotlib.pyplot as plt
 # Load data from CSV
 df = pd.read_csv(r'C:/Users/miro-/OneDrive/Documentos/University - Coventry-FEI/Subjects/Thesis/Findings/graphics/coded_data.csv')
 
-# Agrupar dados para somar a influência na conclusão das tarefas acadêmicas por percepção de melhoria
 grouped_data = df.groupby('Perception of Improvement')['Influence to complete Academic task'].mean().reset_index()
 
-# Graph 2: Perception of Improvement vs. Influence to Complete Academic Tasks
 plt.figure(figsize=(10, 6))
 plt.bar(grouped_data['Perception of Improvement'], grouped_data['Influence to complete Academic task'], edgecolor='black')
 plt.xlabel('Perception of Improvement')
