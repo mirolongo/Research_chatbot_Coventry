@@ -1,0 +1,177 @@
+File loaded successfully.
+Cleaned column names:
+Index(['Major', 'Gender', 'Age group', 'Children', 'Awareness of chatbot',
+       'Frequency of use', 'Rate of  useChatbot',
+       'Advancement in Studies Perception', 'Deeper Understanding of Concepts',
+       'Personalized Learning Experience', 'Perception of Improvement',
+       'Influence to completeAcademic task', 'Recommendation to Classmates'],
+      dtype='object')
+Majors found: [1 3 2]
+Genders found: [2 1 3]
+Age groups found: [1 2 3]
+Children status found: [1 2]
+
+Analyzing data for Major: 1, Gender: 2, Age group: 1, Children: 1
+Error analyzing data for Major: 1, Gender: 2, Age group: 1, Children: 1: "['Rate of useChatbot'] not in index"
+
+Analyzing data for Major: 1, Gender: 2, Age group: 1, Children: 2
+Insufficient data for Major: 1, Gender: 2, Age group: 1, Children: 2
+
+Analyzing data for Major: 1, Gender: 2, Age group: 2, Children: 1
+Insufficient data for Major: 1, Gender: 2, Age group: 2, Children: 1
+
+Analyzing data for Major: 1, Gender: 2, Age group: 2, Children: 2
+Insufficient data for Major: 1, Gender: 2, Age group: 2, Children: 2
+
+Analyzing data for Major: 1, Gender: 2, Age group: 3, Children: 1
+Insufficient data for Major: 1, Gender: 2, Age group: 3, Children: 1
+
+Analyzing data for Major: 1, Gender: 2, Age group: 3, Children: 2
+Insufficient data for Major: 1, Gender: 2, Age group: 3, Children: 2
+
+Analyzing data for Major: 1, Gender: 1, Age group: 1, Children: 1
+Error analyzing data for Major: 1, Gender: 1, Age group: 1, Children: 1: "['Rate of useChatbot'] not in index"
+
+Analyzing data for Major: 1, Gender: 1, Age group: 1, Children: 2
+Insufficient data for Major: 1, Gender: 1, Age group: 1, Children: 2
+
+Analyzing data for Major: 1, Gender: 1, Age group: 2, Children: 1
+Insufficient data for Major: 1, Gender: 1, Age group: 2, Children: 1
+
+Analyzing data for Major: 1, Gender: 1, Age group: 2, Children: 2
+Insufficient data for Major: 1, Gender: 1, Age group: 2, Children: 2
+
+Analyzing data for Major: 1, Gender: 1, Age group: 3, Children: 1
+Insufficient data for Major: 1, Gender: 1, Age group: 3, Children: 1
+
+Analyzing data for Major: 1, Gender: 1, Age group: 3, Children: 2
+Insufficient data for Major: 1, Gender: 1, Age group: 3, Children: 2
+
+Analyzing data for Major: 1, Gender: 3, Age group: 1, Children: 1
+Insufficient data for Major: 1, Gender: 3, Age group: 1, Children: 1
+
+Analyzing data for Major: 1, Gender: 3, Age group: 1, Children: 2
+Insufficient data for Major: 1, Gender: 3, Age group: 1, Children: 2
+
+Analyzing data for Major: 1, Gender: 3, Age group: 2, Children: 1
+Insufficient data for Major: 1, Gender: 3, Age group: 2, Children: 1
+
+Analyzing data for Major: 1, Gender: 3, Age group: 2, Children: 2
+Insufficient data for Major: 1, Gender: 3, Age group: 2, Children: 2
+
+Analyzing data for Major: 1, Gender: 3, Age group: 3, Children: 1
+Insufficient data for Major: 1, Gender: 3, Age group: 3, Children: 1
+
+Analyzing data for Major: 1, Gender: 3, Age group: 3, Children: 2
+Insufficient data for Major: 1, Gender: 3, Age group: 3, Children: 2
+
+Analyzing data for Major: 3, Gender: 2, Age group: 1, Children: 1
+Error analyzing data for Major: 3, Gender: 2, Age group: 1, Children: 1: "['Rate of useChatbot'] not in index"
+
+Analyzing data for Major: 3, Gender: 2, Age group: 1, Children: 2
+Insufficient data for Major: 3, Gender: 2, Age group: 1, Children: 2
+
+Analyzing data for Major: 3, Gender: 2, Age group: 2, Children: 1
+Insufficient data for Major: 3, Gender: 2, Age group: 2, Children: 1
+
+Analyzing data for Major: 3, Gender: 2, Age group: 2, Children: 2
+Insufficient data for Major: 3, Gender: 2, Age group: 2, Children: 2
+
+Analyzing data for Major: 3, Gender: 2, Age group: 3, Children: 1
+Insufficient data for Major: 3, Gender: 2, Age group: 3, Children: 1
+
+Analyzing data for Major: 3, Gender: 2, Age group: 3, Children: 2
+Insufficient data for Major: 3, Gender: 2, Age group: 3, Children: 2
+
+Analyzing data for Major: 3, Gender: 1, Age group: 1, Children: 1
+Insufficient data for Major: 3, Gender: 1, Age group: 1, Children: 1
+
+Analyzing data for Major: 3, Gender: 1, Age group: 1, Children: 2
+Insufficient data for Major: 3, Gender: 1, Age group: 1, Children: 2
+
+Analyzing data for Major: 3, Gender: 1, Age group: 2, Children: 1
+Insufficient data for Major: 3, Gender: 1, Age group: 2, Children: 1
+
+Analyzing data for Major: 3, Gender: 1, Age group: 2, Children: 2
+Insufficient data for Major: 3, Gender: 1, Age group: 2, Children: 2
+
+Analyzing data for Major: 3, Gender: 1, Age group: 3, Children: 1
+Insufficient data for Major: 3, Gender: 1, Age group: 3, Children: 1
+
+Analyzing data for Major: 3, Gender: 1, Age group: 3, Children: 2
+Insufficient data for Major: 3, Gender: 1, Age group: 3, Children: 2
+
+Analyzing data for Major: 3, Gender: 3, Age group: 1, Children: 1
+Insufficient data for Major: 3, Gender: 3, Age group: 1, Children: 1
+
+Analyzing data for Major: 3, Gender: 3, Age group: 1, Children: 2
+Insufficient data for Major: 3, Gender: 3, Age group: 1, Children: 2
+
+Analyzing data for Major: 3, Gender: 3, Age group: 2, Children: 1
+Insufficient data for Major: 3, Gender: 3, Age group: 2, Children: 1
+
+Analyzing data for Major: 3, Gender: 3, Age group: 2, Children: 2
+Insufficient data for Major: 3, Gender: 3, Age group: 2, Children: 2
+
+Analyzing data for Major: 3, Gender: 3, Age group: 3, Children: 1
+Insufficient data for Major: 3, Gender: 3, Age group: 3, Children: 1
+
+Analyzing data for Major: 3, Gender: 3, Age group: 3, Children: 2
+Insufficient data for Major: 3, Gender: 3, Age group: 3, Children: 2
+
+Analyzing data for Major: 2, Gender: 2, Age group: 1, Children: 1
+Error analyzing data for Major: 2, Gender: 2, Age group: 1, Children: 1: "['Rate of useChatbot'] not in index"
+
+Analyzing data for Major: 2, Gender: 2, Age group: 1, Children: 2
+Insufficient data for Major: 2, Gender: 2, Age group: 1, Children: 2
+
+Analyzing data for Major: 2, Gender: 2, Age group: 2, Children: 1
+Insufficient data for Major: 2, Gender: 2, Age group: 2, Children: 1
+
+Analyzing data for Major: 2, Gender: 2, Age group: 2, Children: 2
+Insufficient data for Major: 2, Gender: 2, Age group: 2, Children: 2
+
+Analyzing data for Major: 2, Gender: 2, Age group: 3, Children: 1
+Insufficient data for Major: 2, Gender: 2, Age group: 3, Children: 1
+
+Analyzing data for Major: 2, Gender: 2, Age group: 3, Children: 2
+Insufficient data for Major: 2, Gender: 2, Age group: 3, Children: 2
+
+Analyzing data for Major: 2, Gender: 1, Age group: 1, Children: 1
+Error analyzing data for Major: 2, Gender: 1, Age group: 1, Children: 1: "['Rate of useChatbot'] not in index"
+
+Analyzing data for Major: 2, Gender: 1, Age group: 1, Children: 2
+Insufficient data for Major: 2, Gender: 1, Age group: 1, Children: 2
+
+Analyzing data for Major: 2, Gender: 1, Age group: 2, Children: 1
+Insufficient data for Major: 2, Gender: 1, Age group: 2, Children: 1
+
+Analyzing data for Major: 2, Gender: 1, Age group: 2, Children: 2
+Insufficient data for Major: 2, Gender: 1, Age group: 2, Children: 2
+
+Analyzing data for Major: 2, Gender: 1, Age group: 3, Children: 1
+Insufficient data for Major: 2, Gender: 1, Age group: 3, Children: 1
+
+Analyzing data for Major: 2, Gender: 1, Age group: 3, Children: 2
+Insufficient data for Major: 2, Gender: 1, Age group: 3, Children: 2
+
+Analyzing data for Major: 2, Gender: 3, Age group: 1, Children: 1
+Insufficient data for Major: 2, Gender: 3, Age group: 1, Children: 1
+
+Analyzing data for Major: 2, Gender: 3, Age group: 1, Children: 2
+Insufficient data for Major: 2, Gender: 3, Age group: 1, Children: 2
+
+Analyzing data for Major: 2, Gender: 3, Age group: 2, Children: 1
+Insufficient data for Major: 2, Gender: 3, Age group: 2, Children: 1
+
+Analyzing data for Major: 2, Gender: 3, Age group: 2, Children: 2
+Insufficient data for Major: 2, Gender: 3, Age group: 2, Children: 2
+
+Analyzing data for Major: 2, Gender: 3, Age group: 3, Children: 1
+Insufficient data for Major: 2, Gender: 3, Age group: 3, Children: 1
+
+Analyzing data for Major: 2, Gender: 3, Age group: 3, Children: 2
+Insufficient data for Major: 2, Gender: 3, Age group: 3, Children: 2
+Analysis complete.
+
+Process finished with exit code 0

@@ -1,0 +1,338 @@
+File loaded successfully.
+Cleaned column names:
+Index(['Major', 'Gender', 'Age group', 'Children', 'Awareness of chatbot',
+       'Frequency of use', 'Rate of  useChatbot',
+       'Advancement in Studies Perception', 'Deeper Understanding of Concepts',
+       'Personalized Learning Experience', 'Perception of Improvement',
+       'Influence to completeAcademic task', 'Recommendation to Classmates'],
+      dtype='object')
+Majors found: [1 3 2]
+Genders found: [2 1 3]
+
+Analyzing data for Major: 1, Gender: 2
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\scipy\stats\_axis_nan_policy.py:531: UserWarning: kurtosistest only valid for n>=20 ... continuing anyway, n=8
+  res = hypotest_fun_out(*samples, **kwds)
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       0.936
+Model:                                           OLS   Adj. R-squared:                  0.554
+Method:                                Least Squares   F-statistic:                     2.449
+Date:                               Mon, 27 May 2024   Prob (F-statistic):              0.454
+Time:                                       10:32:08   Log-Likelihood:                 1.6422
+No. Observations:                                  8   AIC:                             10.72
+Df Residuals:                                      1   BIC:                             11.27
+Df Model:                                          6                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                -16.1165     17.945     -0.898      0.534    -244.123     211.890
+Frequency of use                      -0.1748      0.491     -0.356      0.782      -6.416       6.067
+Rate of  useChatbot                    3.4563      2.790      1.239      0.432     -31.989      38.902
+Deeper Understanding of Concepts       0.8932      1.843      0.485      0.713     -22.523      24.310
+Personalized Learning Experience      -0.6311      1.757     -0.359      0.780     -22.956      21.694
+Perception of Improvement              0.6990      1.467      0.476      0.717     -17.941      19.339
+Influence to completeAcademic task     1.3398      1.814      0.738      0.595     -21.715      24.395
+==============================================================================
+Omnibus:                        1.593   Durbin-Watson:                   3.277
+Prob(Omnibus):                  0.451   Jarque-Bera (JB):                0.093
+Skew:                          -0.253   Prob(JB):                        0.954
+Kurtosis:                       3.156   Cond. No.                         748.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Correlation matrix:
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                     -0.487950
+Children                              NaN  ...                           NaN
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      0.828417
+Rate of  useChatbot                   NaN  ...                     -0.149071
+Advancement in Studies Perception     NaN  ...                      0.206725
+Deeper Understanding of Concepts      NaN  ...                      0.466667
+Personalized Learning Experience      NaN  ...                      0.261447
+Perception of Improvement             NaN  ...                      0.097590
+Influence to completeAcademic task    NaN  ...                      0.174078
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 1, Gender: 1
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\scipy\stats\_axis_nan_policy.py:531: UserWarning: kurtosistest only valid for n>=20 ... continuing anyway, n=15
+  res = hypotest_fun_out(*samples, **kwds)
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       0.406
+Model:                                           OLS   Adj. R-squared:                 -0.040
+Method:                                Least Squares   F-statistic:                    0.9096
+Date:                               Mon, 27 May 2024   Prob (F-statistic):              0.533
+Time:                                       10:32:08   Log-Likelihood:                -16.649
+No. Observations:                                 15   AIC:                             47.30
+Df Residuals:                                      8   BIC:                             52.25
+Df Model:                                          6                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                  4.3133      1.493      2.889      0.020       0.871       7.756
+Frequency of use                      -0.1684      0.387     -0.435      0.675      -1.060       0.723
+Rate of  useChatbot                    0.2637      0.525      0.502      0.629      -0.948       1.475
+Deeper Understanding of Concepts      -0.0054      0.846     -0.006      0.995      -1.955       1.945
+Personalized Learning Experience       0.0271      0.518      0.052      0.960      -1.166       1.220
+Perception of Improvement              0.2155      0.516      0.417      0.687      -0.975       1.406
+Influence to completeAcademic task    -0.5423      0.302     -1.794      0.111      -1.239       0.155
+==============================================================================
+Omnibus:                        3.310   Durbin-Watson:                   2.752
+Prob(Omnibus):                  0.191   Jarque-Bera (JB):                1.750
+Skew:                          -0.834   Prob(JB):                        0.417
+Kurtosis:                       3.131   Cond. No.                         50.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Correlation matrix:
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                      0.065326
+Children                              NaN  ...                      0.397360
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      0.674453
+Rate of  useChatbot                   NaN  ...                     -0.089984
+Advancement in Studies Perception     NaN  ...                      0.236067
+Deeper Understanding of Concepts      NaN  ...                      0.472417
+Personalized Learning Experience      NaN  ...                      0.495935
+Perception of Improvement             NaN  ...                      0.867434
+Influence to completeAcademic task    NaN  ...                     -0.217865
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 1, Gender: 3
+Insufficient data for Major: 1, Gender: 3
+
+Analyzing data for Major: 3, Gender: 2
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\scipy\stats\_axis_nan_policy.py:531: UserWarning: kurtosistest only valid for n>=20 ... continuing anyway, n=9
+  res = hypotest_fun_out(*samples, **kwds)
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       0.782
+Model:                                           OLS   Adj. R-squared:                  0.130
+Method:                                Least Squares   F-statistic:                     1.199
+Date:                               Mon, 27 May 2024   Prob (F-statistic):              0.521
+Time:                                       10:32:08   Log-Likelihood:                -2.2574
+No. Observations:                                  9   AIC:                             18.51
+Df Residuals:                                      2   BIC:                             19.90
+Df Model:                                          6                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                  2.5121      2.326      1.080      0.393      -7.496      12.521
+Frequency of use                       0.3560      0.337      1.055      0.402      -1.096       1.808
+Rate of  useChatbot                   -0.4241      0.342     -1.242      0.340      -1.894       1.046
+Deeper Understanding of Concepts       0.3071      0.356      0.864      0.479      -1.223       1.837
+Personalized Learning Experience      -0.1593      0.354     -0.450      0.697      -1.682       1.363
+Perception of Improvement             -0.2287      0.415     -0.551      0.637      -2.016       1.558
+Influence to completeAcademic task     0.4500      0.235      1.912      0.196      -0.563       1.463
+==============================================================================
+Omnibus:                        1.344   Durbin-Watson:                   1.634
+Prob(Omnibus):                  0.511   Jarque-Bera (JB):                0.681
+Skew:                           0.062   Prob(JB):                        0.711
+Kurtosis:                       1.658   Cond. No.                         86.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Correlation matrix:
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\statsmodels\stats\stattools.py:74: ValueWarning: omni_normtest is not valid with less than 8 observations; 4 samples were given.
+  warn("omni_normtest is not valid with less than 8 observations; %i "
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\statsmodels\regression\linear_model.py:1796: RuntimeWarning: divide by zero encountered in divide
+  return 1 - (np.divide(self.nobs - self.k_constant, self.df_resid)
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\statsmodels\regression\linear_model.py:1796: RuntimeWarning: invalid value encountered in scalar multiply
+  return 1 - (np.divide(self.nobs - self.k_constant, self.df_resid)
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\statsmodels\regression\linear_model.py:1718: RuntimeWarning: divide by zero encountered in scalar divide
+  return np.dot(wresid, wresid) / self.df_resid
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                     -0.357143
+Children                              NaN  ...                      0.285714
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      0.285714
+Rate of  useChatbot                   NaN  ...                     -0.109109
+Advancement in Studies Perception     NaN  ...                      0.668153
+Deeper Understanding of Concepts      NaN  ...                      0.285714
+Personalized Learning Experience      NaN  ...                      0.403473
+Perception of Improvement             NaN  ...                     -0.237595
+Influence to completeAcademic task    NaN  ...                      0.397033
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 3, Gender: 1
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       1.000
+Model:                                           OLS   Adj. R-squared:                    nan
+Method:                                Least Squares   F-statistic:                       nan
+Date:                               Mon, 27 May 2024   Prob (F-statistic):                nan
+Time:                                       10:32:08   Log-Likelihood:                 128.34
+No. Observations:                                  4   AIC:                            -248.7
+Df Residuals:                                      0   BIC:                            -251.1
+Df Model:                                          3                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                  0.1651        inf          0        nan         nan         nan
+Frequency of use                       0.0183        inf          0        nan         nan         nan
+Rate of  useChatbot                    0.4587        inf          0        nan         nan         nan
+Deeper Understanding of Concepts      -0.0367        inf         -0        nan         nan         nan
+Personalized Learning Experience       0.4587        inf          0        nan         nan         nan
+Perception of Improvement             -0.0459        inf         -0        nan         nan         nan
+Influence to completeAcademic task     0.0826        inf          0        nan         nan         nan
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.385
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.489
+Skew:                          -0.657   Prob(JB):                        0.783
+Kurtosis:                       1.901   Cond. No.                         29.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The input rank is higher than the number of observations.
+Correlation matrix:
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                      0.174078
+Children                              NaN  ...                      0.577350
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      1.000000
+Rate of  useChatbot                   NaN  ...                      0.577350
+Advancement in Studies Perception     NaN  ...                      0.577350
+Deeper Understanding of Concepts      NaN  ...                      0.816497
+Personalized Learning Experience      NaN  ...                      0.577350
+Perception of Improvement             NaN  ...                      0.333333
+Influence to completeAcademic task    NaN  ...                      0.522233
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 3, Gender: 3
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\scipy\stats\_axis_nan_policy.py:531: UserWarning: kurtosistest only valid for n>=20 ... continuing anyway, n=11
+  res = hypotest_fun_out(*samples, **kwds)
+Insufficient data for Major: 3, Gender: 3
+
+Analyzing data for Major: 2, Gender: 2
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       0.422
+Model:                                           OLS   Adj. R-squared:                 -0.157
+Method:                                Least Squares   F-statistic:                    0.7287
+Date:                               Mon, 27 May 2024   Prob (F-statistic):              0.632
+Time:                                       10:32:09   Log-Likelihood:                -4.5481
+No. Observations:                                 11   AIC:                             21.10
+Df Residuals:                                      5   BIC:                             23.48
+Df Model:                                          5                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                  0.2072      0.138      1.500      0.194      -0.148       0.562
+Frequency of use                      -0.0321      0.366     -0.088      0.933      -0.972       0.908
+Rate of  useChatbot                    0.0849      0.328      0.259      0.806      -0.759       0.929
+Deeper Understanding of Concepts       0.5274      0.384      1.373      0.228      -0.460       1.515
+Personalized Learning Experience      -0.2431      0.408     -0.596      0.577      -1.291       0.805
+Perception of Improvement              0.1011      0.419      0.241      0.819      -0.975       1.177
+Influence to completeAcademic task     0.6099      0.333      1.830      0.127      -0.247       1.467
+==============================================================================
+Omnibus:                        1.678   Durbin-Watson:                   2.080
+Prob(Omnibus):                  0.432   Jarque-Bera (JB):                0.960
+Skew:                          -0.381   Prob(JB):                        0.619
+Kurtosis:                       1.770   Cond. No.                     4.61e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 3.55e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+Correlation matrix:
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                     -0.069007
+Children                              NaN  ...                      0.430331
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      0.051640
+Rate of  useChatbot                   NaN  ...                      0.043033
+Advancement in Studies Perception     NaN  ...                      0.069007
+Deeper Understanding of Concepts      NaN  ...                      0.260875
+Personalized Learning Experience      NaN  ...                     -0.075955
+Perception of Improvement             NaN  ...                      0.548673
+Influence to completeAcademic task    NaN  ...                      0.430331
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 2, Gender: 1
+C:\Users\miro-\OneDrive\Documentos\University - Coventry-FEI\Subjects\Thesis\Python\venv\lib\site-packages\statsmodels\stats\stattools.py:74: ValueWarning: omni_normtest is not valid with less than 8 observations; 7 samples were given.
+  warn("omni_normtest is not valid with less than 8 observations; %i "
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       1.000
+Model:                                           OLS   Adj. R-squared:                  1.000
+Method:                                Least Squares   F-statistic:                 6.362e+27
+Date:                               Mon, 27 May 2024   Prob (F-statistic):           9.52e-15
+Time:                                       10:32:09   Log-Likelihood:                 221.05
+No. Observations:                                  7   AIC:                            -430.1
+Df Residuals:                                      1   BIC:                            -430.4
+Df Model:                                          5                                         
+Covariance Type:                           nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+const                                  4.0000   2.76e-14   1.45e+14      0.000       4.000       4.000
+Frequency of use                      -2.0000   1.51e-14  -1.32e+14      0.000      -2.000      -2.000
+Rate of  useChatbot                    1.6667   1.79e-14   9.31e+13      0.000       1.667       1.667
+Deeper Understanding of Concepts      -0.1667   4.05e-15  -4.11e+13      0.000      -0.167      -0.167
+Personalized Learning Experience      -0.1667   4.05e-15  -4.11e+13      0.000      -0.167      -0.167
+Perception of Improvement          -8.882e-16   1.51e-14     -0.059      0.963   -1.93e-13    1.91e-13
+Influence to completeAcademic task    -0.3333   5.83e-15  -5.72e+13      0.000      -0.333      -0.333
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.086
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.303
+Skew:                          -0.186   Prob(JB):                        0.860
+Kurtosis:                       2.051   Cond. No.                     4.08e+18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.6e-35. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+Correlation matrix:
+                                    Major  ...  Recommendation to Classmates
+Major                                 NaN  ...                           NaN
+Gender                                NaN  ...                           NaN
+Age group                             NaN  ...                      0.679366
+Children                              NaN  ...                      1.000000
+Awareness of chatbot                  NaN  ...                           NaN
+Frequency of use                      NaN  ...                      0.509525
+Rate of  useChatbot                   NaN  ...                      0.766032
+Advancement in Studies Perception     NaN  ...                     -0.198030
+Deeper Understanding of Concepts      NaN  ...                      0.867227
+Personalized Learning Experience      NaN  ...                      0.867227
+Perception of Improvement             NaN  ...                      0.710047
+Influence to completeAcademic task    NaN  ...                      0.146647
+Recommendation to Classmates          NaN  ...                      1.000000
+
+[13 rows x 13 columns]
+
+Analyzing data for Major: 2, Gender: 3
+Insufficient data for Major: 2, Gender: 3
+
+Process finished with exit code 0

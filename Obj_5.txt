@@ -1,0 +1,6 @@
+Descriptive Statistics:
+Recommendation to Classmates
+1     9.090909
+2    36.363636
+3    54.545455
+Name: count, dtype: float64

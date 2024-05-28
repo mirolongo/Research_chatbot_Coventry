@@ -1,0 +1,5 @@
+Pearson Correlation Coefficient: 0.457027900816473
+R-squared: 0.20887450212471204
+Intercept: 0.9216374269005849
+Coefficients: [0.32748538]
+Pearson Correlation: 0.457027900816473

@@ -1,0 +1,37 @@
+                                     Frequency of use  ...  Influence to complete Academic task
+Frequency of use                             1.000000  ...                            -0.029347
+Rate of use Chatbot                          0.331627  ...                             0.149321
+Advancement in Studies Perception            0.086772  ...                            -0.223277
+Deeper Understanding of Concepts             0.590067  ...                             0.017868
+Personalized Learning Experience             0.320708  ...                             0.194574
+Perception of Improvement                    0.457028  ...                            -0.115108
+Influence to complete Academic task         -0.029347  ...                             1.000000
+
+[7 rows x 7 columns]
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Advancement in Studies Perception   R-squared:                       0.118
+Model:                                           OLS   Adj. R-squared:                  0.007
+Method:                                Least Squares   F-statistic:                     1.066
+Date:                               Mon, 27 May 2024   Prob (F-statistic):              0.396
+Time:                                       09:46:58   Log-Likelihood:                -62.752
+No. Observations:                                 55   AIC:                             139.5
+Df Residuals:                                     48   BIC:                             153.6
+Df Model:                                          6                                         
+Covariance Type:                           nonrobust                                         
+=======================================================================================================
+                                          coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+const                                   3.6302      0.701      5.176      0.000       2.220       5.040
+Frequency of use                       -0.0046      0.133     -0.034      0.973      -0.272       0.263
+Rate of use Chatbot                    -0.0868      0.151     -0.574      0.569      -0.391       0.217
+Deeper Understanding of Concepts       -0.0104      0.199     -0.052      0.958      -0.411       0.390
+Personalized Learning Experience        0.1903      0.137      1.388      0.172      -0.085       0.466
+Perception of Improvement               0.1064      0.182      0.584      0.562      -0.260       0.472
+Influence to complete Academic task    -0.1955      0.114     -1.710      0.094      -0.425       0.034
+==============================================================================
+Omnibus:                       15.572   Durbin-Watson:                   2.346
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.877
+Skew:                          -1.104   Prob(JB):                     7.96e-05
+Kurtosis:                       4.833   Cond. No.                         52.5
+==============================================================================
