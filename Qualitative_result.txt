@@ -1,0 +1,15 @@
+                          Aspect to improve chatbot  ... Sentiment
+0                        Helpful to improve language  ...  0.045455
+1                             Be able to upload docs  ... -0.500000
+2         More external tools to gain more knowledge  ...  0.200000
+3                                       Transparency  ...  0.000000
+4                   The possibility to rephrase text  ...  0.136364
+5                                Follow up questions  ...  0.000000
+6                                     Automate tasks  ...  0.150000
+7                                     Automate tasks  ...  0.200000
+8                                Specific guidelines  ...  0.227273
+9                                Specific guidelines  ...  0.000000
+10     I have when chatbot take mouse control a page  ...  0.000000
+11  If a chatbot has specific knowledge on a subject  ... -0.257576
+
+[12 rows x 3 columns]
